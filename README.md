@@ -61,13 +61,8 @@ export class MyFormErrorResolver extends ErrorMessageResolver {
 export class AppModule { }
 ```
 
-You can override the default behaviour by adding a second argument:
-
-```typescript
-NgxEasyErrorsModule.forRoot(MyFormErrorResolver, {
-  showCounter: true
-})
-```
+Check out the [docs](https://janmalch.github.io/ngx-easy-errors/classes/ngxeasyerrorsmodule.html#forroot) 
+for more info and how to override the default behaviour.
 
 Only import the `NgxEasyErrorsModule` in lazy-loaded modules:
 
@@ -139,7 +134,8 @@ export class AppComponent implements OnInit {
 </form>
 ```
 
-Find out more in the [integration app](https://github.com/JanMalch/ngx-easy-errors/blob/master/src/app/app.component.html#L10).
+Find out more in the [integration app](https://github.com/JanMalch/ngx-easy-errors/blob/master/src/app/app.component.html#L10)
+and in the [docs](https://janmalch.github.io/ngx-easy-errors).
 Feel free to clone the repository and experiment with the integration app.
 
 ## Contributors
