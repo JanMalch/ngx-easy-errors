@@ -134,7 +134,7 @@ export class AppComponent implements OnInit {
 </form>
 ```
 
-Find out more in the [integration app](https://github.com/JanMalch/ngx-easy-errors/blob/master/src/app/app.component.html#L10)
+Find out more in the [integration app](https://github.com/JanMalch/ngx-easy-errors/blob/master/src/app/app.component.html)
 and in the [docs](https://janmalch.github.io/ngx-easy-errors).
 Feel free to clone the repository and experiment with the integration app.
 
