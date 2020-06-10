@@ -1,6 +1,6 @@
 {
   "projectName": "ngx-easy-errors",
-  "projectOwner": "",
+  "projectOwner": "JanMalch",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -9,6 +9,19 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "angular",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "JanMalch",
+      "name": "Jan Malchert",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25508038?v=4",
+      "profile": "https://janmalch.github.io/",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "projectManagement"
+      ]
+    }
+  ],
   "contributorsPerLine": 7
 }
