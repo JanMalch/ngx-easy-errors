@@ -68,8 +68,8 @@ export class IfErrorsDirective implements OnInit, OnDestroy {
     if (ctrl == null) {
       throw new Error(`Control ${JSON.stringify(this.control)} could not be found`);
     }
-    // type of error may change via value change but not by status
-    this.subscription = merge(this._condition$, ctrl.valueChanges).subscribe(() => {
+    // type of error may change via value change
+    this.subscription = merge(this._condition$, ctrl.valueChanges, ctrl.statusChanges).subscribe(() => {
       this.vcr.clear();
       if (this._condition$.getValue() && ctrl.errors != null) {
         this.vcr.createEmbeddedView(this.tmplRef, new IfErrorsContext(ctrl.errors));
