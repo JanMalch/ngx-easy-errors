@@ -1,3 +1,9 @@
+# :warning: DEPRECATED :warning:
+
+Feel free to create your own error handling based on this library.
+
+---
+
 # ngx-easy-errors  <a href="https://www.github.com/JanMalch/ngx-easy-errors"><img src="https://raw.githubusercontent.com/JanMalch/ngx-easy-errors/master/.github/assets/logo.svg" width="90" height="90" align="right"></a>  
 
 [![npm](https://img.shields.io/npm/v/ngx-easy-errors?style=flat-square)](https://www.npmjs.com/package/ngx-easy-errors)
